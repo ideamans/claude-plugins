@@ -17,7 +17,7 @@ jobs:
         # marketplace schema checks. The install script puts it at
         # ~/.local/bin/claude, which is already on PATH for bash steps.
         run: |
-          curl -fsSL https://code.claude.com/install.sh | bash
+          curl -fsSL https://claude.ai/install.sh | bash
           claude --version
 
       - name: Validate marketplace manifest
